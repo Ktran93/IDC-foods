@@ -1,0 +1,13 @@
+{
+	"type": "UserCollection",
+	"properties": {
+		"restaurant": {
+			"name": "restaurant",
+			"type": "array",
+			"typeLabel": "array",
+			"required": false,
+			"id": "restaurant",
+			"order": 0
+		}
+	}
+}

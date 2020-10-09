@@ -1,0 +1,97 @@
+.card-List {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.card {
+  /* min-width: 200px; */
+  max-width: 500px;
+  margin-bottom: 30px;
+  display: inline-block;
+
+}
+
+.cardMedia {
+  height: 300px;
+  margin: 50px 20px;
+  border-radius: 15px;
+}
+
+.commentList {
+  padding: 0;
+  margin: 0;
+  background-color: red;
+  list-style-type: none;
+
+}
+
+.comment {
+  padding: 0;
+  padding: 20px;
+  margin: 0;
+  height: 200px;
+  background-color: green;
+  border-radius: 20px;
+  text-align: center;
+}
+
+.userInfo p span{
+  background: white;
+  margin-left: 10px;
+  float: left;
+}
+
+.userInfo{
+  background-color: blue;
+  display: inline-block;
+}
+
+.userInfo p {
+  background: orange;
+  display: block;
+}
+
+.reviewImage {
+  display: inline-block;
+  /* width: 10%; */
+  height: 70px;
+  width: 70px;
+  border-radius: 50%;
+}
+
+.row {
+  flex: 1;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.selector{
+  display: inline-block;
+  width: 30%
+}
+
+.location-FormGroup{
+  width: 30%;
+  margin-bottom: 15px;
+}
+
+.resturantButton{
+  margin-top: 10px;
+  margin-bottom: 10px;
+  display: inline-block;
+  margin-right: 20px;
+}
+
+/* Add media queries for responsiveness. This will center both the text and the image inside the container */
+@media (max-width: 500px) {
+  .comment {
+    text-align: center;
+  }
+
+  .comment img {
+    margin: auto;
+    float: none;
+    display: block;
+  }
+}
